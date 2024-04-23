@@ -50,6 +50,27 @@ public class TiposPrimitivos {
 		System.out.println("Valor minimo de Double: " + Double.MIN_VALUE);
 		System.out.println("Valor maximo de Double: " + Double.MAX_VALUE);
 		
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		
+		//Inferencia de tipos con VAR y Tipos Primitivos
+		
+		var numeroEntero = 10;
+		System.out.println("numeroEntero = " + numeroEntero );
+		
+		var numeroDoubleVar = 12.454545;
+		System.out.println("numeroDoubleVar = " + numeroDoubleVar );
+		
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+		char miCaracter = 'a';
+		System.out.println("miCaracter = " + miCaracter);
+		
+		// Utilizacion de Unicode
+		
+		char varChar = '\u0021';
+		System.out.println("varChar = " + varChar);
+		
+		
 	}
 
 }
