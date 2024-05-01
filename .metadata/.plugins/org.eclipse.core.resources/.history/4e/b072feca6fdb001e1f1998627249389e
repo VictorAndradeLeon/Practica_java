@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+/**
+ * 
+ */
+
+/**
+ * @author robot
+ *
+ */
+public class DetallesLibro {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Que tal usuario. Escribe el titulo del libro:");
+		Scanner detalle = new Scanner(System.in);
+		
+		System.out.println("");
+		
+
+	}
+
+}

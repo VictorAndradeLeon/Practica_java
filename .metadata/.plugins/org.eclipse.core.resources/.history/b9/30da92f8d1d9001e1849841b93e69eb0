@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+/**
+ * 
+ */
+
+/**
+ * @author robot
+ *
+ */
+public class Scanner {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Creamos un objeto nuevo de la clase Scanner ".in" es de input = salida 
+		System.out.println("Escribe el primer dato: \n);
+		Scanner consola = new Scanner(System.in);
+		String dato1 = consola.nextLine();
+		System.out.println("Escribe un numero: \n" + dato1 );
+
+	}
+
+}

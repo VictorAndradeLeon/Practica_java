@@ -1,0 +1,31 @@
+
+
+/**
+ * 
+ */
+
+/**
+ * @author robot
+ *
+ */
+public class Scanner {
+
+	/**
+	 * @param args
+	 */
+	private static void scann(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Creamos un objeto nuevo de la clase Scanner ".in" es de input = salida 
+		System.out.println("Escribe el primer dato: \n");
+		Scanner consola = new Scanner();
+		var dato1 = consola.nextLine();
+		System.out.println("Escribe un numero: \n" + dato1 );
+
+	}
+
+	private Object nextLine() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

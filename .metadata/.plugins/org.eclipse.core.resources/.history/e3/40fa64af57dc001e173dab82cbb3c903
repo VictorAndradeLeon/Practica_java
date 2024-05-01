@@ -1,0 +1,31 @@
+/**
+ * 
+ */
+
+/**
+ * @author robot
+ *
+ */
+public class TiposPrimitivos {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Tipos primitivos enteros: byte, short, int, long
+		//Definir los tipos:
+		
+		byte numerobyte = (byte)129;
+		System.out.println("Valor del Byte: " + numerobyte);
+		System.out.println("Valor maximo del byte: "+ Byte.MAX_VALUE);
+		System.out.println("Valor minimo del byte: "+ Byte.MIN_VALUE);
+
+		short numeroShort = 10;
+		System.out.println("Valor maximo del short: "+ Short.MAX_VALUE);
+		System.out.println("Valor minimo del short: "+ Short.MAX_VALUE);
+		
+	}
+
+}
