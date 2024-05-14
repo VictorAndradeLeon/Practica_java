@@ -17,7 +17,7 @@ public class TiposPrimitivos {
 
 		// Tipos primitivos de tipo entero: byte, short, int, long
 		// Definir los tipos:
-		
+
 		byte numerobyte = (byte) 129;
 		System.out.println("Valor del Byte: " + numerobyte);
 		System.out.println("Valor maximo del byte: " + Byte.MAX_VALUE);
